@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.grad {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(40deg, #557a46, #f2ee9d);
+}
+
+.form {
+  width: 40%;
+  height: 50%;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 52px;
+  position: relative;
+}
+
+.email {
+  height: 30px;
+  width: 60%;
+  position: relative;
+  top: 60px;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.pass {
+  position: relative;
+  top: 60px;
+  height: 30px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* how to adjust place holder */
+.signin {
+  color: rgb(216, 155, 0);
+  text-align: center;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  position: relative;
+  top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-weight: 2000;
+}
+.login {
+  color: #1a5d1a;
+  width: 80px;
+  height: 30px;
+  border: 1px;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.login:hover {
+  color: #00cf00;
+}
